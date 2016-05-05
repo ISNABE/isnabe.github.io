@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'wideawake';
+    src: url('../fonts/wideawake.ttf')
+}
+
+.header {
+    background-image: url('../images/background.jpg') !important;
+    background-color: #000000 !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.header .container {
+    opacity: 1 !important;
+    color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header .container h1 {
+    font-family: 'wideawake';
+}
+
+.header .container img {
+    height: 30vh;
+}
+
+.header .container p a {
+    color: #fff;
+}
+
+.dl {
+    padding: 1rem 3rem;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin: 2rem 1rem 0 1rem;
+}
+
+.dl:hover {
+    background-color: rgba(0,0,0,1);
+    color: #FFFFFF;
+    text-decoration: none;
+}
