@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'wideawake';
-    src: url('../fonts/wideawake.ttf')
+    font-family: 'vanadine';
+    src: url('../fonts/vanadine_bold.ttf')
 }
 
 .header {
@@ -8,7 +8,8 @@
     background-color: #000000 !important;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
+    margin: 0;
 }
 
 .header .container {
@@ -20,7 +21,7 @@
 }
 
 .header .container h1 {
-    font-family: 'wideawake';
+    font-family: 'vanadine', Arial;
 }
 
 .header .container img {
